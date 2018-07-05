@@ -1,0 +1,41 @@
+@relation Present_processed
+
+@attribute Yasik {Yes,No}
+@attribute HugeMeal {'Late-Night Meal',Dinner,Lunch,Snack}
+@attribute Exercise numeric
+@attribute Breakfast numeric
+@attribute Snack numeric
+@attribute Season {Winter,'Season does not influence',Summer,Fall,Spring}
+@attribute B_Breakfast {No,Yes}
+@attribute L_Lunch {Yes}
+@attribute D_Dinner {Yes}
+@attribute Sleep numeric
+@attribute Class {Yes,No}
+
+@data
+Yes,'Late-Night Meal',4,0,0,'Season does not influence',No,Yes,Yes,6,?
+No,Dinner,4,1,2,'Season does not influence',Yes,Yes,Yes,6,?
+No,Lunch,5,3,2,Spring,Yes,Yes,Yes,6,?
+Yes,Dinner,0,0,3,'Season does not influence',No,Yes,Yes,8,?
+Yes,Dinner,6,0,1,'Season does not influence',No,Yes,Yes,7,?
+Yes,'Late-Night Meal',1,0,6,Winter,No,Yes,Yes,5,?
+No,Lunch,4,1,6,Summer,No,Yes,Yes,6,?
+Yes,Dinner,0,0,3,'Season does not influence',No,Yes,Yes,8,?
+Yes,Dinner,1,3,3,Spring,Yes,Yes,Yes,5,?
+No,Lunch,3,0,3,Spring,No,Yes,Yes,8,?
+Yes,Dinner,3,0,2,'Season does not influence',No,Yes,Yes,8,?
+No,Dinner,5,0,6,Summer,No,Yes,Yes,7,?
+No,Dinner,0,4,2,Winter,Yes,Yes,Yes,7,?
+Yes,Dinner,2,0,3,'Season does not influence',No,Yes,Yes,8,?
+No,Dinner,7,0,3,Winter,No,Yes,Yes,8,?
+No,Dinner,0,0,4,'Season does not influence',No,Yes,Yes,8,?
+Yes,Dinner,0,1,5,Summer,No,Yes,Yes,8,?
+No,Dinner,0,2,1,Winter,Yes,Yes,Yes,7,?
+Yes,Dinner,5,0,3,Winter,No,Yes,Yes,8,?
+Yes,Dinner,6,6,1,'Season does not influence',Yes,Yes,Yes,6,?
+Yes,Lunch,4,7,1,Winter,Yes,Yes,Yes,8,?
+Yes,Dinner,4,4,0,Winter,Yes,Yes,Yes,7,?
+Yes,'Late-Night Meal',0,0,1,'Season does not influence',No,Yes,Yes,8,?
+Yes,Snack,0,3,4,Summer,Yes,Yes,Yes,6,?
+No,Dinner,3,0,0,Winter,No,Yes,Yes,8,?
+No,Dinner,1,3,3,Winter,Yes,Yes,Yes,7,?
